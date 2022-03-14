@@ -1,0 +1,253 @@
+﻿  stdafx.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\struct.h(37): warning C4091: 'typedef ': 변수를 선언하지 않으면 'SKIL' 왼쪽은 무시됩니다.
+  Zombie.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\zombie.cpp(320): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  UI_Manager.cpp
+  Title.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\title.cpp(36): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\title.cpp(46): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Tile_Manager.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\tile_manager.cpp(150): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\tile_manager.cpp(151): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Tile.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\tile.cpp(67): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\tile.cpp(79): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\tile.cpp(80): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\tile.cpp(81): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\tile.cpp(82): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Throwing_Stones.cpp
+  Text.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\text.cpp(77): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\text.cpp(78): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\text.cpp(79): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\text.cpp(80): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\text.cpp(84): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Start.cpp
+  SoundMgr.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\soundmgr.cpp(92): warning C4244: '초기화 중': 'intptr_t'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\soundmgr.cpp(112): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SlashEffect.cpp
+  Slash.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(72): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(343): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(344): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(345): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(346): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(353): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(354): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(355): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(356): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(364): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(365): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(366): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\slash.cpp(367): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Skil_Manager.cpp
+  SkilMerchant.cpp
+  Skil.cpp
+  Scroll_Manager.cpp
+  Scene_Manager.cpp
+  Scene.cpp
+  RobeNpc.cpp
+  ProbCollider.cpp
+  Prob.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  PlazaNpc.cpp
+  Plaza.cpp
+  PlayerImage.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\playerimage.cpp(36): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\playerimage.cpp(37): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\playerimage.cpp(38): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\playerimage.cpp(39): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Player.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(311): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(312): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(356): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(362): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(369): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(376): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(628): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(636): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(644): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(652): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(662): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(663): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(672): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(673): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(682): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(683): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(692): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(693): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(807): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(811): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(815): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\player.cpp(819): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MyUI.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\myui.cpp(14): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\myui.cpp(15): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\myui.cpp(16): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\myui.cpp(17): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MyMouse_Manager.cpp
+  MyMouse.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mymouse.cpp(39): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mymouse.cpp(40): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mymouse.cpp(41): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mymouse.cpp(42): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MyButton.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mybutton.cpp(100): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mybutton.cpp(101): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mybutton.cpp(102): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mybutton.cpp(103): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mybutton.cpp(108): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Mp_Bar.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mp_bar.cpp(35): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mp_bar.cpp(36): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mp_bar.cpp(37): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mp_bar.cpp(38): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\mp_bar.cpp(57): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Merchant.cpp
+  MainGame.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\maingame.cpp(65): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\maingame.cpp(66): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Key_Manager.cpp
+  IceSpin.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\icespin.cpp(107): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\icespin.cpp(108): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\icespin.cpp(109): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\icespin.cpp(110): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  IRon_Collider.cpp
+  HpBackGround.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\hpbackground.cpp(35): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\hpbackground.cpp(36): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\hpbackground.cpp(37): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\hpbackground.cpp(38): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Home.cpp
+  HitEffect.cpp
+  HP_Bar.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\hp_bar.cpp(38): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\hp_bar.cpp(39): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\hp_bar.cpp(40): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\hp_bar.cpp(41): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\hp_bar.cpp(88): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameObject_Manager.cpp
+  GameObject.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\gameobject.cpp(19): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\gameobject.cpp(20): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\gameobject.cpp(21): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\gameobject.cpp(22): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Font_Damage_Manager.cpp
+  Font_Damage.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\font_damage.cpp(63): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\font_damage.cpp(64): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\font_damage.cpp(65): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\font_damage.cpp(66): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\font_damage.cpp(71): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Effect_Manager.cpp
+  Effect.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\effect.cpp(14): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\effect.cpp(15): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\effect.cpp(16): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\effect.cpp(17): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Edit.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\edit.cpp(62): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\edit.cpp(67): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\edit.cpp(72): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\edit.cpp(77): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\edit.cpp(262): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\edit.cpp(263): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\edit.cpp(329): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\edit.cpp(330): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\edit.cpp(646): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\edit.cpp(650): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\edit.cpp(654): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\edit.cpp(658): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Earth_Pillar.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earth_pillar.cpp(116): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earth_pillar.cpp(117): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  EarthShield.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthshield.cpp(103): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthshield.cpp(173): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthshield.cpp(174): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthshield.cpp(175): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthshield.cpp(176): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthshield.cpp(182): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthshield.cpp(183): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthshield.cpp(184): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthshield.cpp(185): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  EarthBoss.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthboss.cpp(162): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthboss.cpp(165): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthboss.cpp(291): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthboss.cpp(292): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthboss.cpp(293): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\earthboss.cpp(294): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dungeon.cpp
+  Demonstration_Test.cpp
+  Dash.cpp
+  CursedMerchant.cpp
+  Create_Collider.cpp
+  Collision_Manager.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(29): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(30): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(66): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(70): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(74): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(78): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(167): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(168): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(242): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(243): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(306): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(307): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(352): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(365): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(368): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(382): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\collision_manager.cpp(385): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Collider.cpp
+  CardEffect.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\cardeffect.cpp(32): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\cardeffect.cpp(33): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\cardeffect.cpp(34): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\cardeffect.cpp(35): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\cardeffect.cpp(102): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BossHp_Bar.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\bosshp_bar.cpp(41): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\bosshp_bar.cpp(42): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\bosshp_bar.cpp(43): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\bosshp_bar.cpp(44): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\bosshp_bar.cpp(76): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BossBackGround.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\bossbackground.cpp(43): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\bossbackground.cpp(44): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\bossbackground.cpp(45): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\bossbackground.cpp(46): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Bitmap_Manager.cpp
+  Bitmap.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Arrow.cpp
+  Archer.cpp
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\archer.cpp(62): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\archer.cpp(63): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\archer.cpp(64): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\archer.cpp(65): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\archer.cpp(214): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\archer.cpp(215): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\bluek\desktop\jusin\demonstration\demonstration_test2_0830 (2)\demonstration_test\wizard-of-legend\demonstration_test\archer.cpp(424): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+SoundMgr.obj : error LNK2019: FMOD_System_Create 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::Initialize(void)" (?Initialize@CSoundMgr@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_System_Release 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::Release(void)" (?Release@CSoundMgr@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_System_Init 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::Initialize(void)" (?Initialize@CSoundMgr@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_System_Close 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::Release(void)" (?Release@CSoundMgr@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_System_Update 외부 기호(참조 위치: "private: void __cdecl CSoundMgr::LoadSoundFile(void)" (?LoadSoundFile@CSoundMgr@@AEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_System_CreateSound 외부 기호(참조 위치: "private: void __cdecl CSoundMgr::LoadSoundFile(void)" (?LoadSoundFile@CSoundMgr@@AEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_System_PlaySound 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::PlayBGM(wchar_t *)" (?PlayBGM@CSoundMgr@@QEAAXPEA_W@Z) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_Sound_Release 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::Release(void)" (?Release@CSoundMgr@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_Channel_Stop 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::StopAll(void)" (?StopAll@CSoundMgr@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_Channel_IsPlaying 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::PlaySound(wchar_t *,enum CSoundMgr::CHANNELID)" (?PlaySound@CSoundMgr@@QEAAXPEA_WW4CHANNELID@1@@Z) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_Channel_SetMode 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::PlayBGM(wchar_t *)" (?PlayBGM@CSoundMgr@@QEAAXPEA_W@Z) 함수)에서 확인하지 못했습니다.
+fmodex_vc.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\bluek\Desktop\Jusin\Demonstration\Demonstration_Test2_0830 (2)\Demonstration_Test\wizard-of-legend\x64\Debug\Demonstration_Test.exe : fatal error LNK1120: 11개의 확인할 수 없는 외부 참조입니다.
