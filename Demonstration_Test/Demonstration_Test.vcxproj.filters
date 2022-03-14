@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99.Defalut">
+      <UniqueIdentifier>{a77e4136-bf6b-47bd-adee-4ebea6c2d4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{14c05f94-763a-41a0-a140-27c37bd1167d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{5ac2f0f7-b670-4aee-a797-9b16388d3739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{f27b04cd-4805-4482-af2a-cb56b7018438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Manager">
+      <UniqueIdentifier>{0604a852-7865-4a6d-9544-cdf3dba60dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Plaza">
+      <UniqueIdentifier>{dea1f1cc-29de-4e40-9d81-21f2cc4774de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Home">
+      <UniqueIdentifier>{f3b44014-2f44-4666-a171-7ba555e4a60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Dungeon">
+      <UniqueIdentifier>{5b09c896-7c6f-495f-be12-3a736226fcb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Edit">
+      <UniqueIdentifier>{d25ed217-9152-4c73-bac5-7deae692471e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Bitmap">
+      <UniqueIdentifier>{09017444-3af9-4333-8ae2-222d3d7c6f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Bitmap\Manager">
+      <UniqueIdentifier>{686f1cd6-692f-4561-9a2b-e7fcc32c7736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject">
+      <UniqueIdentifier>{e58e5d89-e5f7-4a61-ac1b-05ccd5f38af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster">
+      <UniqueIdentifier>{e0645c3d-98a5-49b9-a6da-a7d7d4508d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\Boss">
+      <UniqueIdentifier>{0a5e565d-be16-4b49-a3dd-6f1a4545716a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\NormalMonster">
+      <UniqueIdentifier>{410eaeb6-0816-4f19-8348-8ecc787836c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Player">
+      <UniqueIdentifier>{19016715-35be-4c1e-9437-6bf31919a492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Manager">
+      <UniqueIdentifier>{ad59a7db-f9fa-4921-abb6-3ae168c5f49c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Skil">
+      <UniqueIdentifier>{8dc7bcc2-e812-43be-b99f-23a158943203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Mouse">
+      <UniqueIdentifier>{d6c73f27-c285-43a4-8644-3b42394bfa0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\NPC">
+      <UniqueIdentifier>{f7b56988-4c47-4d6a-a7e3-090459f68233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Skil\EarthShield">
+      <UniqueIdentifier>{14385653-3732-4dcf-a103-e2d400e37b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Skil\Dash">
+      <UniqueIdentifier>{3a14e95d-ece2-48d2-9a51-61b226b3a4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Skil\Slash">
+      <UniqueIdentifier>{d70aa013-4618-4871-8573-86538c614c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\NPC\RobeNpc">
+      <UniqueIdentifier>{1e88d43f-3c26-4c15-bfd4-50bf40dc0c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\NPC\Merchant">
+      <UniqueIdentifier>{4fc1d397-7828-4e47-b1c9-7095abacda96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\NPC\CursedMerchant">
+      <UniqueIdentifier>{30d30254-bf68-4694-a582-f1094e82fbab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\NPC\SkilMerchant">
+      <UniqueIdentifier>{f8e008ea-9d39-49db-9892-fc638fa4eb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\NPC\PlazaNpc">
+      <UniqueIdentifier>{b2c36ae2-db9d-4afe-9c98-d8102831c82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\NPC\SkilNpc">
+      <UniqueIdentifier>{1e9d2d60-087f-44a8-87e3-ebc595e7687c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Start">
+      <UniqueIdentifier>{3e735df4-0f7e-4dbc-876b-732b5766f86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Mouse\Manager">
+      <UniqueIdentifier>{01d0fd84-ccbf-4f7b-b3aa-d4d8e02f76e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI">
+      <UniqueIdentifier>{e9f878d3-ba0d-4043-ac2b-31f4ce4290aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\Manager">
+      <UniqueIdentifier>{8974785e-6511-4121-b299-e97385a98292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\START">
+      <UniqueIdentifier>{bc63b24d-7971-4bcf-85f4-65d09978ea19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\START\Title">
+      <UniqueIdentifier>{fd2da324-38cb-4cb1-8635-e50c19968278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\START\Text">
+      <UniqueIdentifier>{c5c0b1ba-8d32-4867-b56f-7ee28ce62083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\START\Button">
+      <UniqueIdentifier>{85c6c0bf-5878-4371-a6d1-0052c3ae3c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Tile">
+      <UniqueIdentifier>{e907eef6-95f7-4df8-9b14-8700df0e3397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Tile\Manager">
+      <UniqueIdentifier>{6f69739c-326b-4cfc-80c8-71c928b815e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Skil\Manager">
+      <UniqueIdentifier>{e1ac8488-0651-4a4e-9c37-0a79adcd2d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Manager">
+      <UniqueIdentifier>{0477eb9e-b3f6-452c-bfdf-9e69de23002a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Manager\Scroll_Manager">
+      <UniqueIdentifier>{2e0f22d3-a274-4a16-8e44-aefb1cd8151c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Manager\Key_Manager">
+      <UniqueIdentifier>{66493fb3-a11b-4061-9898-4890170b0003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Manager\Collision_Manager">
+      <UniqueIdentifier>{839e6747-27a8-4983-8bf1-04f64e891ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\PLAY">
+      <UniqueIdentifier>{e388bac4-bc56-47c1-bfa4-32d5b74236e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\NormalMonster\Archer">
+      <UniqueIdentifier>{5affa7a4-9735-4876-ab01-55e8e4c1f8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Effect">
+      <UniqueIdentifier>{762e991c-32fd-4344-853d-a3a2d9066f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Effect\SlashEffect">
+      <UniqueIdentifier>{9cf70183-680b-4032-96ab-b459d11e4e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Effect\Manager">
+      <UniqueIdentifier>{0a0da209-6eae-43c8-8037-f9f8851f7bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Effect\CardEffect">
+      <UniqueIdentifier>{386c4757-0a7f-4744-90e4-076847000bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\NormalMonster\Zombie">
+      <UniqueIdentifier>{8fbbc886-e3a7-47d8-b3a9-f489c16e62b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\NormalMonster\Magic">
+      <UniqueIdentifier>{e6c708fa-3b40-4bcc-9d9b-5e4b1574959c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\NormalMonster\Slime">
+      <UniqueIdentifier>{2721415f-9413-47ef-bb9e-5cba9c87d43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\Boss\EARTH">
+      <UniqueIdentifier>{505b0b17-d090-4d4c-af48-0ff0cc90ec4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\Boss\ICE">
+      <UniqueIdentifier>{1505375b-cf6b-426b-9218-d110132f1bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\Monster_Armor">
+      <UniqueIdentifier>{abd93561-ec78-408a-8454-c388d20c2bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\Monster_Armor\Arrow">
+      <UniqueIdentifier>{06e828b1-d6b9-4c16-aea1-62cef33a98d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.Font_Damage">
+      <UniqueIdentifier>{53e8bbf5-f59a-4fbd-af2c-6d1b96ceb937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.Font_Damage\Manager">
+      <UniqueIdentifier>{bc219e6b-5d8e-4335-91eb-24f7ce46f345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Skil\IceSpin">
+      <UniqueIdentifier>{e87a6a94-bd60-4bdf-b6dd-0413b17e413f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\PLAY\PlayerHP">
+      <UniqueIdentifier>{d2886bd3-0218-4d9e-8fa7-5e47b8fcb39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\PLAY\BossHp">
+      <UniqueIdentifier>{640247b3-6376-45b5-87ee-4fe27e8aa5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\PLAY\BackGround">
+      <UniqueIdentifier>{356905b1-875a-4c4e-bbc4-c37f1b7ede58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\PLAY\BackGround\Boss">
+      <UniqueIdentifier>{d88cb364-310e-4b5a-a63e-d88a3f9c01a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\PLAY\BackGround\Player">
+      <UniqueIdentifier>{65d8d559-3b14-47a2-a228-d9e88f5ca847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\PLAY\PlayerImage">
+      <UniqueIdentifier>{e967225c-14a4-446f-8e1e-c9553e8ee081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\PLAY\PlayerMp">
+      <UniqueIdentifier>{3d381b83-6fd1-44e5-b252-41368ac9573e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\PLAY\SkilUI">
+      <UniqueIdentifier>{4d379715-119e-4e0a-a401-f6ee627b3ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\Monster_Armor\ZombieSlash">
+      <UniqueIdentifier>{ed9c0302-b53c-4bad-9733-ca9c345e2285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\Boss\BossSkil">
+      <UniqueIdentifier>{f8ff49e7-c2b0-45a5-b721-ff82311fadb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\Boss\BossSkil\Throwing_Stones">
+      <UniqueIdentifier>{7d11ac44-682c-4e8e-9bf9-d0475114256d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\Boss\BossSkil\Earth_Pillar">
+      <UniqueIdentifier>{bb091c37-e2af-4d4f-9051-53924095165d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\Boss\BossSkil\Earth_Drill">
+      <UniqueIdentifier>{4a35d943-a87e-4824-b5a8-6cd57d2b4ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Monster\Boss\BossSkil\Eath_Traking">
+      <UniqueIdentifier>{2f466e49-e43a-4723-8a88-ff824f57b950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Effect\HitEffect">
+      <UniqueIdentifier>{b6265e6f-8de6-4d51-8849-2951810b5193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\Prob">
+      <UniqueIdentifier>{3a1e85f3-ce6a-4ebc-9e8d-4f2942f12862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Manager\Collision_Manager\Collider">
+      <UniqueIdentifier>{ffa28abe-b343-43f0-be8b-1d2864d2be0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Manager\Collision_Manager\Collider\ProbCollider">
+      <UniqueIdentifier>{9e9a740b-3380-4e04-8dd5-62f403c8ae27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Manager\Collision_Manager\Collider\IRON_Collider">
+      <UniqueIdentifier>{7fdef56b-6702-41a0-96af-92374047a9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Manager\Collision_Manager\Collider\Create_Collider">
+      <UniqueIdentifier>{0cafb076-9912-47dd-b5d1-0180dba01ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Manager\Sound_Manager">
+      <UniqueIdentifier>{59eac513-5b6a-434a-8819-87aa80fbb094}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Demonstration_Test.h">
+      <Filter>99.Defalut</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Defalut</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Defalut</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Defalut</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Manager.h">
+      <Filter>01.Scene\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>01.Scene\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="Plaza.h">
+      <Filter>01.Scene\Plaza</Filter>
+    </ClInclude>
+    <ClInclude Include="Home.h">
+      <Filter>01.Scene\Home</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit.h">
+      <Filter>01.Scene\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>02.Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap_Manager.h">
+      <Filter>02.Bitmap\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>03.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>03.GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_Manager.h">
+      <Filter>03.GameObject\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Skil.h">
+      <Filter>04.Skil</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthShield.h">
+      <Filter>04.Skil\EarthShield</Filter>
+    </ClInclude>
+    <ClInclude Include="Dash.h">
+      <Filter>04.Skil\Dash</Filter>
+    </ClInclude>
+    <ClInclude Include="Slash.h">
+      <Filter>04.Skil\Slash</Filter>
+    </ClInclude>
+    <ClInclude Include="CursedMerchant.h">
+      <Filter>03.GameObject\NPC\CursedMerchant</Filter>
+    </ClInclude>
+    <ClInclude Include="RobeNpc.h">
+      <Filter>03.GameObject\NPC\RobeNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="Merchant.h">
+      <Filter>03.GameObject\NPC\Merchant</Filter>
+    </ClInclude>
+    <ClInclude Include="SkilMerchant.h">
+      <Filter>03.GameObject\NPC\SkilMerchant</Filter>
+    </ClInclude>
+    <ClInclude Include="PlazaNpc.h">
+      <Filter>03.GameObject\NPC\PlazaNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMouse.h">
+      <Filter>05.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Scroll_Manager.h">
+      <Filter>06.Manager\Scroll_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Key_Manager.h">
+      <Filter>06.Manager\Key_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Start.h">
+      <Filter>01.Scene\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMouse_Manager.h">
+      <Filter>05.Mouse\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUI.h">
+      <Filter>07.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Manager.h">
+      <Filter>07.UI\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>07.UI\START\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>07.UI\START\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>07.UI\START\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>08.Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile_Manager.h">
+      <Filter>08.Tile\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision_Manager.h">
+      <Filter>06.Manager\Collision_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Skil_Manager.h">
+      <Filter>04.Skil\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>03.GameObject\Monster\NormalMonster\Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="SlashEffect.h">
+      <Filter>09.Effect\SlashEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>09.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_Manager.h">
+      <Filter>09.Effect\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CardEffect.h">
+      <Filter>09.Effect\CardEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>03.GameObject\Monster\Monster_Armor\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="Font_Damage.h">
+      <Filter>10.Font_Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="Font_Damage_Manager.h">
+      <Filter>10.Font_Damage\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IceSpin.h">
+      <Filter>04.Skil\IceSpin</Filter>
+    </ClInclude>
+    <ClInclude Include="Hp_Bar.h">
+      <Filter>07.UI\PLAY\PlayerHP</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHp_Bar.h">
+      <Filter>07.UI\PLAY\BossHp</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBackGround.h">
+      <Filter>07.UI\PLAY\BackGround\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="HpBackGround.h">
+      <Filter>07.UI\PLAY\BackGround\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerImage.h">
+      <Filter>07.UI\PLAY\PlayerImage</Filter>
+    </ClInclude>
+    <ClInclude Include="Mp_Bar.h">
+      <Filter>07.UI\PLAY\PlayerMp</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthBoss.h">
+      <Filter>03.GameObject\Monster\Boss\EARTH</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>03.GameObject\Monster\NormalMonster\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="HitEffect.h">
+      <Filter>09.Effect\HitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Earth_Pillar.h">
+      <Filter>03.GameObject\Monster\Boss\BossSkil\Earth_Pillar</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob.h">
+      <Filter>03.GameObject\Prob</Filter>
+    </ClInclude>
+    <ClInclude Include="ProbCollider.h">
+      <Filter>06.Manager\Collision_Manager\Collider\ProbCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>06.Manager\Collision_Manager\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="IRon_Collider.h">
+      <Filter>06.Manager\Collision_Manager\Collider\IRON_Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Create_Collider.h">
+      <Filter>06.Manager\Collision_Manager\Collider\Create_Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Throwing_Stones.h">
+      <Filter>03.GameObject\Monster\Boss\BossSkil\Throwing_Stones</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>06.Manager\Sound_Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demonstration_Test.cpp">
+      <Filter>99.Defalut</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Defalut</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Manager.cpp">
+      <Filter>01.Scene\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>01.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>01.Scene\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="Plaza.cpp">
+      <Filter>01.Scene\Plaza</Filter>
+    </ClCompile>
+    <ClCompile Include="Home.cpp">
+      <Filter>01.Scene\Home</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit.cpp">
+      <Filter>01.Scene\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>02.Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap_Manager.cpp">
+      <Filter>02.Bitmap\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>03.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>03.GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Skil.cpp">
+      <Filter>04.Skil</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_Manager.cpp">
+      <Filter>03.GameObject\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthShield.cpp">
+      <Filter>04.Skil\EarthShield</Filter>
+    </ClCompile>
+    <ClCompile Include="Dash.cpp">
+      <Filter>04.Skil\Dash</Filter>
+    </ClCompile>
+    <ClCompile Include="Slash.cpp">
+      <Filter>04.Skil\Slash</Filter>
+    </ClCompile>
+    <ClCompile Include="CursedMerchant.cpp">
+      <Filter>03.GameObject\NPC\CursedMerchant</Filter>
+    </ClCompile>
+    <ClCompile Include="RobeNpc.cpp">
+      <Filter>03.GameObject\NPC\RobeNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="Merchant.cpp">
+      <Filter>03.GameObject\NPC\Merchant</Filter>
+    </ClCompile>
+    <ClCompile Include="SkilMerchant.cpp">
+      <Filter>03.GameObject\NPC\SkilMerchant</Filter>
+    </ClCompile>
+    <ClCompile Include="PlazaNpc.cpp">
+      <Filter>03.GameObject\NPC\PlazaNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMouse.cpp">
+      <Filter>05.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Scroll_Manager.cpp">
+      <Filter>06.Manager\Scroll_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Key_Manager.cpp">
+      <Filter>06.Manager\Key_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>01.Scene\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMouse_Manager.cpp">
+      <Filter>05.Mouse\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUI.cpp">
+      <Filter>07.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Manager.cpp">
+      <Filter>07.UI\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>07.UI\START\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>07.UI\START\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>07.UI\START\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>08.Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile_Manager.cpp">
+      <Filter>08.Tile\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision_Manager.cpp">
+      <Filter>06.Manager\Collision_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>03.GameObject\Monster\NormalMonster\Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="SlashEffect.cpp">
+      <Filter>09.Effect\SlashEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Skil_Manager.cpp">
+      <Filter>04.Skil\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>09.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_Manager.cpp">
+      <Filter>09.Effect\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CardEffect.cpp">
+      <Filter>09.Effect\CardEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>03.GameObject\Monster\Monster_Armor\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="Font_Damage.cpp">
+      <Filter>10.Font_Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="Font_Damage_Manager.cpp">
+      <Filter>10.Font_Damage\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="IceSpin.cpp">
+      <Filter>04.Skil\IceSpin</Filter>
+    </ClCompile>
+    <ClCompile Include="HP_Bar.cpp">
+      <Filter>07.UI\PLAY\PlayerHP</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHp_Bar.cpp">
+      <Filter>07.UI\PLAY\BossHp</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBackGround.cpp">
+      <Filter>07.UI\PLAY\BackGround\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="HpBackGround.cpp">
+      <Filter>07.UI\PLAY\BackGround\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerImage.cpp">
+      <Filter>07.UI\PLAY\PlayerImage</Filter>
+    </ClCompile>
+    <ClCompile Include="Mp_Bar.cpp">
+      <Filter>07.UI\PLAY\PlayerMp</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthBoss.cpp">
+      <Filter>03.GameObject\Monster\Boss\EARTH</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>03.GameObject\Monster\NormalMonster\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="HitEffect.cpp">
+      <Filter>09.Effect\HitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Earth_Pillar.cpp">
+      <Filter>03.GameObject\Monster\Boss\BossSkil\Earth_Pillar</Filter>
+    </ClCompile>
+    <ClCompile Include="Prob.cpp">
+      <Filter>03.GameObject\Prob</Filter>
+    </ClCompile>
+    <ClCompile Include="ProbCollider.cpp">
+      <Filter>06.Manager\Collision_Manager\Collider\ProbCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>06.Manager\Collision_Manager\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="IRon_Collider.cpp">
+      <Filter>06.Manager\Collision_Manager\Collider\IRON_Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_Collider.cpp">
+      <Filter>06.Manager\Collision_Manager\Collider\Create_Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Throwing_Stones.cpp">
+      <Filter>03.GameObject\Monster\Boss\BossSkil\Throwing_Stones</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>06.Manager\Sound_Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Demonstration_Test.ico">
+      <Filter>99.Defalut</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Defalut</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Demonstration_Test.rc">
+      <Filter>99.Defalut</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Defalut</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
