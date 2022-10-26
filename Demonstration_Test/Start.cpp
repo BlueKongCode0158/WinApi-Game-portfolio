@@ -52,7 +52,7 @@ void CStart::Update_Scene()
 	CMyMouse_Manager::Get_Instance()->Update_MyMouse_Manager();
 
 
-	CUI_Manager::Get_Instance()->Update_UI_LOAD_Manager();	//여기서 터진다는 소리구요.
+	CUI_Manager::Get_Instance()->Update_UI_LOAD_Manager();	
 
 
 	if (CKey_Manager::Get_StartKey()->Key_Down(KEY_LBUTTON))
@@ -81,10 +81,7 @@ void CStart::Render_Scene(HDC hDC)
 
 void CStart::Release_Scene()
 {
-	//CUI_Manager::Get_Instance()->Delete_UI(UI_OBJECT::TEXT);
-	//CUI_Manager::Get_Instance()->Delete_UI(UI_OBJECT::TITLE);
 	CUI_Manager::Get_Instance()->Release_UI_Manager();
-	// 하지만 시작 UI는 계속 쓸 일 없으니 지울거임.
 }
 
 CScene * CStart::Create()

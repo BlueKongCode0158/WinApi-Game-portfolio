@@ -191,9 +191,9 @@ void CArcher::Render_GameObject(HDC hDC)
 		GdiTransparentBlt(hDC, m_tRect.left + iScrollX, m_tRect.top + iScrollY, m_tPoint.iCX, m_tPoint.iCY,
 			hMemDC, m_tFrame.iStartFrame*m_tPoint.iCX, m_tFrame.iState*m_tPoint.iCY, m_tPoint.iCX, m_tPoint.iCY, RGB(255, 0, 255));
 
-		//TCHAR szHp[32]{};
-		//swprintf_s(szHp, L"HP: %d", m_iHp);
-		//TextOut(hDC, m_tPoint.fX + iScrollX, m_tPoint.fY + iScrollY, szHp, lstrlen(szHp));
+		TCHAR szHp[32]{};
+		swprintf_s(szHp, L"HP: %d", m_iHp);
+		TextOut(hDC, m_tPoint.fX + iScrollX, m_tPoint.fY + iScrollY, szHp, lstrlen(szHp));
 
 		CGameObject* pObj = CGameObject_Manager::Get_Instacne()->Get_Player();
 

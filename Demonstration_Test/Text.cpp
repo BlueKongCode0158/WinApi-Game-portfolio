@@ -1,9 +1,12 @@
 #include "stdafx.h"
 #include "Text.h"
 
+const int iMaxColor = 255;
+const int iMinColor = 100;
+
 CText::CText()
 	:m_hFont(NULL),
-	m_Font_Color(0),
+	m_Font_Color(iMinColor),
 	m_bColorBlack(false),
 	m_bColorWhite(true)
 {
@@ -27,22 +30,22 @@ void CText::Update_UI()
 {
 	if (bMyStartID == false)
 	{
-		if (m_bColorWhite == true && (m_Font_Color >= 0) && (m_Font_Color <= 255))
+		if (m_bColorWhite == true && (m_Font_Color >= iMinColor) && (m_Font_Color <= iMaxColor))
 		{
 			m_Font_Color++;
-			if (m_Font_Color >= 255)
+			if (m_Font_Color >= iMaxColor)
 			{
-				m_Font_Color = 255;
+				m_Font_Color = iMaxColor;
 				m_bColorWhite = false;
 				m_bColorBlack = true;
 			}
 		}
-		else if (m_bColorBlack == true && (m_Font_Color >= 0) && (m_Font_Color <= 255))
+		else if (m_bColorBlack == true && (m_Font_Color >= iMinColor) && (m_Font_Color <= iMaxColor))
 		{
 			m_Font_Color--;
-			if (m_Font_Color <= 100)
+			if (m_Font_Color <= iMinColor)
 			{
-				m_Font_Color = 100;
+				m_Font_Color = iMinColor;
 				m_bColorWhite = true;
 				m_bColorBlack = false;
 			}

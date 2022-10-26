@@ -766,7 +766,6 @@ void CEdit::Update_Scene()
 	ViewKey();
 	ScrollMove();
 
-	//정신놔서 들어가는 인자도 까먹니 빡대가리야.
 	// 조건자때문에 오류나는 거 였음.
 	if (false == m_bSetPalette && false ==m_bSetOptionPalette && false ==m_bCreateMonster && false == m_bCollisionSetting && false == m_bProbSetting)
 	{

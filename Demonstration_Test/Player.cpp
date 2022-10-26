@@ -228,11 +228,6 @@ void CPlayer::FrameChange()
 		}
 		m_CurState = m_NextState;
 
-		//ATTACK_NOMAL_FRONT,
-		//	ATTACK_NOMAL_LEFT,
-		//	ATTACK_NOMAL_RIGHT,
-		//	ATTACK_NOMAL_BACK
-
 	}
 }
 
@@ -261,10 +256,6 @@ void CPlayer::MoveFrame()
 		{
 			m_tFrame.iStartFrame = 4;
 		}
-		//else if (ATTACK_NOMAL_LEFT == m_CurState)
-		//{
-		//	m_tFrame.iStartFrame = 9;
-		//}
 		else if (ATTACK_NOMAL_BACK == m_CurState  ||
 				 ATTACK_NOMAL_LEFT == m_CurState  ||
 				 ATTACK_NOMAL_RIGHT == m_CurState ||
@@ -315,7 +306,6 @@ void CPlayer::MoveFrame()
 
 			m_NextState = IDLE;
 			m_bFall = false;
-			//m_tFrame.iStartFrame = 20;
 		}
 		else if (DIE == m_CurState)
 		{
@@ -394,7 +384,6 @@ void CPlayer::Move()
 		m_NextState = IDLE_LEFT;
 	}
 
-	//이미지 상태가 요상한데?
 }
 
 void CPlayer::Skil_Slash()
@@ -522,10 +511,6 @@ void CPlayer::Skil_Dash()
 			{
 				m_NextState = DASH_BACK;
 			}
-			//DASH_45,
-			//	DASH_135,
-			//	DASH_225,
-			//	DASH_315,
 
 		}
 		else if (CKey_Manager::Get_PlayerKey()->Key_Pressing(KEY_A))
@@ -598,10 +583,6 @@ void CPlayer::Skil_Dash()
 
 	}
 
-	////떨어지기 전 좌표 저장용
-	//if (false == m_tInfo.bDash && false == m_bFall)
-	//{
-	//}
 
 	if (true == m_tInfo.bDash)
 	{
@@ -610,10 +591,6 @@ void CPlayer::Skil_Dash()
 		{
 			iSpeed = 11.2f;
 		}
-		//else if (true == m_bFall)
-		//{
-		//	iSpeed = 0;
-		//}
 		else if (true == m_bWall)
 		{
 			iSpeed = 0;
@@ -622,7 +599,7 @@ void CPlayer::Skil_Dash()
 		if (DASH_BACK == m_CurState)
 		{
 
-			if (m_tPoint.fY > m_DashPoint.fY)	// 앵클이 ~~ 일 때나..음..두 점사이의 거리 공식..이용하거나.. 스토커? 이용해도 될 것 같구
+			if (m_tPoint.fY > m_DashPoint.fY)	
 			{
 				m_tPoint.fY -= iSpeed;
 				CScroll_Manager::Get_Instacne()->Set_ScrollY(iSpeed);
@@ -788,14 +765,6 @@ void CPlayer::Skil_IceSpin()
 		m_bIceSpinPattern = false;
 	}
 
-	//else if (m_dwIceSpinCount + 150 > GetTickCount() && m_dwIceSpinCount + 100 < GetTickCount())
-	//{
-	//	for (int i = 0; i <= 360; i = i + 90)
-	//	{
-	//		CSkil* pObj = CIceSpin::Create(i * (PI / 180.f));
-	//		CSkil_Manager::Get_Instacne()->Add_Skil(pObj, GAMEOBJECT::UPDATE_SKIL::FINAL);
-	//	}
-	//}
 }
 
 void CPlayer::ScrollMove()

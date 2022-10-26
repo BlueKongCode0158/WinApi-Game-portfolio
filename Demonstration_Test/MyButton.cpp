@@ -25,7 +25,6 @@ int CMyButton::Ready_UI()
 void CMyButton::Update_UI()
 {
 }
-	//람다식 사용할 수 있으려나
 
 void CMyButton::Late_Update_UI()
 {
@@ -77,7 +76,6 @@ void CMyButton::Render_UI(HDC hDC)
 		m_hFont = CreateFontIndirect(&m_logFont);
 
 		HOldFont = static_cast<HFONT>(SelectObject(hDC, m_hFont));
-		// 저장 되는게 아니잖..아!..
 		//그 전 폰트를 저장해준다.
 		//출력 할 글자.
 

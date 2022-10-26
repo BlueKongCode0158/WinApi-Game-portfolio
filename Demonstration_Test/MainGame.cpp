@@ -13,7 +13,6 @@
 #include "Effect_Manager.h"
 #include "Font_Damage_Manager.h"
 #include "SoundMgr.h"
-//일어나서 폰트작업.
 
 CMainGame::CMainGame()
 	:m_FpsTime(0),
@@ -41,7 +40,6 @@ int CMainGame::Ready_MainGame()
 	CBitmap_Manager::Get_Instance()->Insert_Bitmap(L"../Image/Map_Tile/EarthTile1.bmp", L"EarthTile");
 	CBitmap_Manager::Get_Instance()->Insert_Bitmap(L"../Image/Map_Tile/PlazaTile1.bmp", L"PlazaTile");
 
-												 //L"../Image/UI/MouseCursor0.bmp", L"MouseCursor"
 	CScene_Manager::Get_Instance()->Scene_Change(CScene_Manager::SCENE_START);
 
 
@@ -77,16 +75,9 @@ void CMainGame::Render_MainGame()
 	swprintf_s(m_szPointX, L"X : %.1f Y: %.1f", MousefX, MousefY);
 	TextOut(hDubbleBuffer, WINCX - 100, 100, m_szPointX,lstrlen(m_szPointX));
 
-	//m_FpsTime++;
-	//if (m_dwGetick + 1000 < GetTickCount())
-	//{
-	//	swprintf_s(m_szFps, L"FPS : %d", m_FpsTime);
-	//	m_FpsTime = 0;
-	//	m_dwGetick = GetTickCount();
-	//}
-
 	BitBlt(m_hDC, 0, 0, WINCX, WINCY, hDubbleBuffer, 0, 0, SRCCOPY);
 }
+
 
 void CMainGame::Release_MainGame()
 {

@@ -9,7 +9,6 @@ private:
 public:
 	~CDungeon();
 public:
-	// CScene을(를) 통해 상속됨
 	virtual int Ready_Scene() override;
 	virtual void Update_Scene() override;
 	virtual void Release_Scene() override;

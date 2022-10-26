@@ -17,5 +17,4 @@ public:
 	static CScene* Create();
 	static CScene* Create(LPVOID pVoid);
 
-	// CScene을(를) 통해 상속됨
 };

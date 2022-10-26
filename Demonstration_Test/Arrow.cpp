@@ -33,7 +33,7 @@ int CArrow::Ready_GameObject()
 	float fDist = sqrtf(fBase*fBase + fHight*fHight);
 
 	float fAngle = acosf(fBase / fDist);
-	float fRadian = PI / 180.f;	//이거 머리에 박아두자..
+	float fRadian = PI / 180.f;	
 
 	if (m_tPoint.fY <= pObj->Get_tPoint()->fY)
 	{
@@ -110,7 +110,7 @@ void CArrow::Render_GameObject(HDC hDC)
 	int iScrollY = CScroll_Manager::Get_Instacne()->Get_ScrollY();
 
 
-	Ellipse(hDC, m_tRect.left + iScrollX, m_tRect.top + iScrollY, m_tRect.right + iScrollX, m_tRect.bottom + iScrollY);
+	//Ellipse(hDC, m_tRect.left + iScrollX, m_tRect.top + iScrollY, m_tRect.right + iScrollX, m_tRect.bottom + iScrollY);
 	GdiTransparentBlt(hDC,
 		m_tRect.left + iScrollX, m_tRect.top + iScrollY,
 		m_tPoint.iCX, m_tPoint.iCY, hMemDC,

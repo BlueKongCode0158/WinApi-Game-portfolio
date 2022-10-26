@@ -289,9 +289,9 @@ void CZombie::Render_GameObject(HDC hDC)
 				m_tPoint.iCX, m_tPoint.iCY,
 				RGB(255, 0, 255));
 		}
-		//TCHAR szHp[32]{};
-		//swprintf_s(szHp, L"HP: %d", m_iHp);
-		//TextOut(hDC, m_tPoint.fX + iScrollX, m_tPoint.fY + iScrollY, szHp, lstrlen(szHp));
+		TCHAR szHp[32]{};
+		swprintf_s(szHp, L"HP: %d", m_iHp);
+		TextOut(hDC, m_tPoint.fX + iScrollX, m_tPoint.fY + iScrollY, szHp, lstrlen(szHp));
 
 	}
 }

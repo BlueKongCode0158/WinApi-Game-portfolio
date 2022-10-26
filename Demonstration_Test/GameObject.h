@@ -160,7 +160,7 @@ protected:
 	//한번 시도해보고 ~!
 protected:
 	RECT m_tRect;
-	RECT m_tRect_Recognize;//우선 방치
+	RECT m_tRect_Recognize;
 	RECT m_tRect_Collision;
 
 	TPOINT m_tPoint;

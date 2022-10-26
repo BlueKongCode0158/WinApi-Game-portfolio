@@ -42,7 +42,6 @@ void CDungeon::Release_Scene()
 
 int CDungeon::Ready_Scene()
 {
-	//CUI_Manager::Get_Instance()->Release_UI_Manager();
 	CSoundMgr::Get_Instance()->StopSound(CSoundMgr::CHANNELID::BGM);
 	CSoundMgr::Get_Instance()->PlayBGM(L"Earth.wav");
 	CGameObject* pObj = CPlayer::Create();
@@ -96,7 +95,6 @@ void CDungeon::Update_Scene()
 		CKey_Manager::Get_StartKey()->Key_Update();
 		if (CKey_Manager::Get_StartKey()->Key_Down(KEY_O))
 		{
-			//이걸로 다시 생성하는 창? 같은거 만들자!...
 			CGameObject* pObj = CPlayer::Create();
 			CGameObject_Manager::Get_Instacne()->Add_Game_Object_Manager(pObj, GAMEOBJECT::UPDATE_ID::PLAYER);
 		}
@@ -109,7 +107,6 @@ void CDungeon::Render_Scene(HDC hDC)
 	BitBlt(hDC, 0, 0, WINCX, WINCY, hMemDC, 0, 0, SRCCOPY);
 	CTile_Manager::Get_Instance()->Render_Tile_Manager(hDC);
 	CGameObject_Manager::Get_Instacne()->Render_GameObject_Manager(hDC);
-	//CCollision_Manager::Get_Instacne()->Render_Collider(hDC);//이거 주의.. 내가 렌더에다가 업데이트 기능 넣어준거 있으면 안 돌아간다..
 
 	CEffect_Manager::Get_Instance()->Render_Effect_Manager(hDC);
 	CFont_Damage_Manager::Get_Instance()->Render_Font_Damage_Manager(hDC);
