@@ -1,2 +1,2 @@
-# wizard-of-legend
+# Windows API : WizardOfLegend - CloneCoding
  
