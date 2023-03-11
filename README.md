@@ -1,5 +1,5 @@
 # WinAPI Game Portfolio
-
+> **USE** : *Windows API Lib*, *FMod Lib*
 ### Implementation 
 * Combat   
  > 1. Skil
